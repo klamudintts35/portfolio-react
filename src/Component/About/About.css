@@ -112,10 +112,6 @@
     .about-sections {
         flex-direction: column;
     }
-    /* .about-left img {
-        width: 600px;
-        height: 600px;
-    } */
      .about-left {
         display: none;
      }

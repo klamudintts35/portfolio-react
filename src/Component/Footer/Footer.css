@@ -59,7 +59,11 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
-
+@media(max-width: 1024px) {
+    .footer {
+        margin: 50px 100px;
+    }
+}
 @media(max-width: 768px) {
     .footer {
         margin: 50px 70px;

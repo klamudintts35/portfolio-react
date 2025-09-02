@@ -57,6 +57,16 @@
 }
 
 /* ________________media query________________ */
+@media(max-width: 1024px) {
+    .mywork-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+    .mywork-container img {
+        width: 20rem;
+        height: 15rem;
+    }
+}
 @media(max-width: 768px) {
     .mywork {
         gap: 50px;
